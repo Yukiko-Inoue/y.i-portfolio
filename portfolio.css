@@ -1,0 +1,110 @@
+.home{
+    background-image: url(img/sozai_image_97074.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*nav*/
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 10% 0%;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav li{
+    margin: 40px;
+}
+
+/*ホーム*/
+.title-home{
+    color: orange;
+    font-size: 64px;
+    text-shadow: 3px 3px #fff, 4px 4px 0 #5d6f77, 4px 2px 0 #5d6f77, 2px 4px 0 #5d6f77, 2px 2px 0 #5d6f77;
+    text-align: center;
+    margin-top: 15%;
+}
+.home-title-p{
+    text-align: center;
+}
+.title{
+    color: orange;
+    font-size: 64px;
+    text-shadow: 3px 3px #fff, 4px 4px 0 #5d6f77, 4px 2px 0 #5d6f77, 2px 4px 0 #5d6f77, 2px 2px 0 #5d6f77;
+    text-align: center;
+}
+
+/*ワーク*/
+.work{
+    margin-top: 0;
+}
+
+/*cont*/
+.works-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.works-item{
+    text-align: center;
+    margin: 1%;
+}
+.works-img{
+    width: 350px;
+    height: auto;
+}
+.works-img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+/* works個々（スライダー部分）*/
+.works-back{
+    background-image: url(./img/frame-both.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+.slide-cont{
+    float: left;
+    list-style-type: none;
+}
+.slide-img{
+    width: 700px;
+    height: auto;
+}
+.intro-cont{
+    width: 900px;
+    margin: 5% auto 5% auto;
+}
+
+/*Profile*/
+.profile{
+    display: flex;
+    align-items: center;
+}
+.koro{
+    width: 450px;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+.introduction{
+    width: 400px;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.intro-p{
+    font-size: 20px;
+    font-weight: 500;
+}
